@@ -4,7 +4,7 @@
 
 A [PostgREST](https://postgrest.org/en/stable/) implementation of the [Voice Registry System (VRS)][vrsdoc].
 
-## Running the POC
+## Running the proof of concept
 
 ```sh
 docker pull postgrest/postgrest
@@ -28,7 +28,6 @@ To load a simple schema and a starter data set, try:
 ```sh
 PGPASSWORD=hunter2 psql -h localhost -p 5432 vrs psql -f schema.sql
 ```
-
 
 ## Developer Certificate of Origin
 
